@@ -1,6 +1,6 @@
 version: 0.1.0                                            
 
-name: Test stack to Deploy Next.js site to GitHub pagessaasds  # stack name 
+name: Test stack to Deploy Next.js site to GitHub pagessaasds111  # stack name 
 description: Description of the test stack               # stack description
 
 branding:                                                # stack branding 
@@ -30,15 +30,6 @@ configs:
       topics:
       - nextjs
       - github-pages
-
-  branches:
-    - name: main
-      parameters:
-        enforce-admins: true
-        required-pull-request-reviews:
-          dismiss-stale-reviews: true
-          required-approving-review-count: 1
-          require-code-owner-reviews: true
 
 
 init:
