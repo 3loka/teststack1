@@ -1,6 +1,6 @@
 version: 0.1.0                                            
 
-name: Test stack to Deploy Next.js site to GitHub pages  # stack name 
+name: Test stack to Deploy Next.js site to GitHub pagesss  # stack name 
 description: Description of the test stack               # stack description
 
 branding:                                                # stack branding 
