@@ -39,9 +39,7 @@ configs:
           dismiss-stale-reviews: true
           required-approving-review-count: 1
           require-code-owner-reviews: true
-        
-github-apps:
-- slug: greenkeeper
+
 
 init:
   uses: "stack-init.yaml"
