@@ -15,18 +15,12 @@ inputs:                                                  # stack inputs
     - v12.22.4
     - v14.17.4
     
-  - name: GITHUB_PAT
-    description: GitHub PAT with repo and workflow permissions
-    required: true
-    is-secret: true
+ 
 
 configs:
   repo-metadata:
     parameters:
       description: 'NextJS app on GH pages'
-      secrets: 
-      - name: GH_PAT
-        value: ${{inputs.GITHUB_PAT}}
       topics:
       - nextjs
       - github-pages
